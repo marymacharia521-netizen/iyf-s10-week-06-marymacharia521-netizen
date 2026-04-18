@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 12 Exercises</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="page">
+        <section class="hero">
+            <h1>Working with APIs</h1>
+        </section>
+
+        <section class="card">
+            <div id="lesson12-output" class="exercise-grid"></div>
+        </section>
+
+        <section class="card">
+            <h2>User Directory</h2>
+            <div id="api-loading" class="status loading hidden">Loading users...</div>
+            <div id="api-error" class="status error hidden"></div>
+
+            <div class="controls">
+                <input type="text" id="search" placeholder="Search by name or email">
+                <select id="sort">
+                    <option value="a-z">Sort A-Z</option>
+                    <option value="z-a">Sort Z-A</option>
+                </select>
+                <select id="city-filter">
+                    <option value="">All Cities</option>
+                </select>
+            </div>
+
+            <div id="users-container" class="directory-grid"></div>
+        </section>
+
+        <section class="card">
+            <h2>Create a Post</h2>
+            <form id="post-form" class="post-form">
+                <input type="text" id="post-title" placeholder="Post title" required>
+                <textarea id="post-body" placeholder="Post body" rows="5" required></textarea>
+                <input type="number" id="post-user-id" placeholder="User ID" min="1" value="1" required>
+                <button type="submit">Submit Post</button>
+            </form>
+            <p id="post-result" class="hint"></p>
+        </section>
+    </main>
+
+    <script src="api-exercises.js"></script>
+</body>
+</html>
