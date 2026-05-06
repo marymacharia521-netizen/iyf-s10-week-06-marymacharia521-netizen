@@ -2,7 +2,8 @@
 
 ## Author
 - **Name:** Mary Macharia
-- **GitHub:** https://marymacharia521-netizen.github.io/iyf-s10-week-06-marymacharia521-netizen/
+- **GitHub:** marymacharia521-netizen
+- **Live Demo:** https://marymacharia521-netizen.github.io/iyf-s10-week-06-marymacharia521-netizen/
 - **Date:** April 18, 2026
 
 ## Project Description
